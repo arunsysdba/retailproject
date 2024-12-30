@@ -34,7 +34,7 @@ pipeline {
                     sh 'echo $JAVA_HOME'
                     sh 'echo $PATH'
                     
-                    // Run tests (assuming you are using pytest for tests)
+                    // Run tttests (assuming you are using pytest for tests)
                     sh './retail_pipeline_venv/bin/pipenv run pytest'
                 }
             }
